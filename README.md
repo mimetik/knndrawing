@@ -10,4 +10,6 @@ The KNN algorithm has the folling controls
 
 On the visual side, the Style and Extra parameters are self-explenatory and fun to play with.
 
+Available at https://alessvale-knndrawing.glitch.me/
+
 TODO: Allow users to upload their own images.
