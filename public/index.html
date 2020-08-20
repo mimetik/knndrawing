@@ -1,0 +1,57 @@
+ <!DOCTYPE html>
+ <html>
+  <head>
+     <meta charset="utf-8">
+     <meta name="viewport", width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+     <script src="p5.min.js"></script>
+     <script src="addons/p5.dom.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.14.2/matter.min.js"></script>
+
+   <script src="sketch.js"></script>
+
+    <script src="KNNClf.js"></script>
+
+
+
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Abel">
+   <style>
+        body {
+          font-family: 'Abel', serif;
+          font-size: 48px;
+             }
+    </style>
+  </head>
+     <!-- this line removes any default padding and style. you might only need one of these values set. -->
+
+
+
+ <body>
+   <div style = "width: 80%; margin: auto">
+   <div>
+     <p  style = "font-size: 28px;">A KNN algorithm helps you draw on the canvas.<br>
+     Explore the settings and have fun!</p>
+     </div>
+   <div id ="canvas"  style = "width: 50%; float: left; align: center">
+
+ </div>
+
+ <div id = "controls" style = "width: 10%; float: left; font-size: 24px;">
+   <p> <b>KNN Controls</b> </p>
+   <p id = "slider1">K <br> </p>
+         <p id ="slider2"> Num Points <br> </p>
+         <p id = "restart"> </p>
+   </div>
+   <div id = "controls" style = "width: 10%; float: left; font-size: 24px;">
+     <p> <b>Style</b> </p>
+     <p id = "slider3">Opacity<br> </p>
+     <p id = "slider4">Brush Size<br> </p>
+     </div>
+     <div id = "controls" style = "width: 10%; float: left; font-size: 24px;">
+       <p> <b>Extra</b> </p>
+
+       <p id = "slider5">Dynamics<br></p>
+       <p id = "slider6">Jiggle<br></p>
+       </div>
+     </div>
+</body>
+</html>

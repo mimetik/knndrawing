@@ -1,0 +1,15 @@
+{
+  "name": "knn-app",
+  "version": "1.0.0",
+  "description": "An app to draw using a KNN algorithm",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Alessandro Valentino",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
